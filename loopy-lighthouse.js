@@ -19,10 +19,10 @@ for (let i = lowLimit; i <= highLimit; i++) {
   } else if (i % 4 === 0) {
     phrase = "Lighthouse";
   } else if (i % 3 === 0) {
-    phrase = "Loopy"
+    phrase = "Loopy";
   } else {
     phrase = i;
   }
 
   console.log(phrase);
-} 
+}
