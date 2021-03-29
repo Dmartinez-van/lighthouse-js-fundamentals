@@ -7,7 +7,7 @@ If the number is a multiple of both 3 and 4, print the string "LoopyLighthouse" 
 By print, we are referring to console.log.
 */
 
-function loopyLighthouse (range, multiples, words) {
+const loopyLighthouse = function(range, multiples, words) {
   // declare var(s). Set to upper limit for our challenge.
   let min, max;
   if (range[0] < range[1]) {
@@ -33,7 +33,7 @@ function loopyLighthouse (range, multiples, words) {
     }
     console.log(phrase);
   }
-}   
+};
 
 loopyLighthouse([1, 24], [3, 4], ["Batty", "Beacon"]);
 
